@@ -1,26 +1,27 @@
 # Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student
 
-## Aim:
+## AIM:
 To write a program to implement the the Logistic Regression Model to Predict the Placement Status of Student.
 
-## Equipment's required:
+## Equipments Required:
 1. Hardware – PCs
 2. Anaconda – Python 3.7 Installation / Moodle-Code Runner
 
-## Algorithm:
-1. Import the standard libraries.
-2. Upload the dataset and check for any null or duplicated values using .isnull() and .duplicated() function respectively.
-3. Import LabelEncoder and encode the dataset.
-4. Import LogisticRegression from sklearn and apply the model on the dataset.
-5. Predict the values of array.
-6. Calculate the accuracy, confusion and classification report by importing the required modules from sklearn.
-7. Apply new unknown values
+## Algorithm
+1.Import the standard libraries.
+2.Upload the dataset and check for any null or duplicated values using .isnull() and .duplicated() function respectively.
+3.Import LabelEncoder and encode the dataset.
+4.Import LogisticRegression from sklearn and apply the model on the dataset.
+5.Predict the values of array.
+6.Calculate the accuracy, confusion and classification report by importing the required modules from sklearn.
+7.Apply new unknown values
 
 ## Program:
-~~~
-#Program to implement the the Logistic Regression Model to Predict the Placement Status of Student.
-#Developed by: REVATHI.D
-#RegisterNumber: 212221240045
+```
+Program to implement the the Logistic Regression Model to Predict the Placement Status of Student.
+Developed by: RAGUL VK
+RegisterNumber:  212221240043
+
 import pandas as pd
 data = pd.read_csv("Placement_Data.csv")
 data.head()
@@ -61,18 +62,19 @@ from sklearn.metrics import classification_report
 classification_report1 = classification_report(y_test,y_pred)
 classification_report1
 lr.predict([[1,80,1,90,1,1,90,1,0,85,1,85]])
-~~~
+```
+
 ## Output:
 ### Head:
-![output](./img/1.png)
-### Predicted Values:
-![output](./img/2.png)
+![f](./Screenshot%20(299).png)
+### Predicted values:
+![f](./Screenshot%20(300).png)
 ### Accuracy:
-![output](./img/3.png)
-### Confusion Matrix:
-![output](./img/4.png)
+![f](./Screenshot%20(301).png)
+### Confusion matrix:
+![f](./Screenshot%20(302).png)
 ### Classification Report:
-![output](./img/5.png)
+![f](./Screenshot%20(303).png)
 
 ## Result:
-Thus, the program to implement the the Logistic Regression Model to Predict the Placement Status of Student is written and verified using python programming.
+Thus the program to implement the the Logistic Regression Model to Predict the Placement Status of Student is written and verified using python programming.
