@@ -65,16 +65,20 @@ lr.predict([[1,80,1,90,1,1,90,1,0,85,1,85]])
 ```
 
 ## Output:
-### Head:
-![f](./Screenshot%20(299).png)
-### Predicted values:
-![f](./Screenshot%20(300).png)
-### Accuracy:
-![f](./Screenshot%20(301).png)
-### Confusion matrix:
-![f](./Screenshot%20(302).png)
-### Classification Report:
-![f](./Screenshot%20(303).png)
+![image](https://github.com/Revathi-Dayalan/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/96000574/d22bd7c5-16c7-4e90-8187-0799239ae9b3)
+
+![image](https://github.com/Revathi-Dayalan/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/96000574/d38ec25f-673a-4265-bc63-a18593a71cc0)
+
+![image](https://github.com/Revathi-Dayalan/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/96000574/d353d0c1-4993-4f71-a7c1-4963cde9ca1c)
+
+![image](https://github.com/Revathi-Dayalan/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/96000574/99082d50-3d76-41d2-ad49-00ebf853b065)
+
+![image](https://github.com/Revathi-Dayalan/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/96000574/5e4ad83e-03cc-4854-b367-b5c29517d97a)
+
+![image](https://github.com/Revathi-Dayalan/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/96000574/52c26fac-2d22-4843-838c-429c0ea3a7e0)
+
+![image](https://github.com/Revathi-Dayalan/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/96000574/c760eaeb-d4fe-47f4-aae9-265955da776e)
+
 
 ## Result:
 Thus the program to implement the the Logistic Regression Model to Predict the Placement Status of Student is written and verified using python programming.
